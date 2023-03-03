@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Chewy&family=Chicle&family=Coiny&family=Gamja+Flower&family=Gorditas&family=Lemon&family=Mystery+Quest&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 :root {
-  --primary-color: #76d3d6;
-  --secondary-color: #f5c84e;
-  --accent1-color: #f77da8;
-  --accent2-color: #97d8a0;
+  --primary-color: #86cdd9;
+  --secondary-color: #ffdfec;
+  --accent1-color: #000002;
+  --accent2-color: #f2e6d8;
 
-  --heading-font: 'Rock Salt', serif;
-  --paragraph-font: Helvetica, sans-serif;
+  --heading-font: chicle, serif;
+  --paragraph-font: 'roboto slab', sans-serif;
 
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: black; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #97d8a0;
+  --headline-color-on-white: #000002;  /* headlines on a white background */ 
+  --headline-color-on-color: #000002; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000002; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #000002; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #ffdfec;
   --nav-link-color: black;
-  --nav-background-color: #76d3d6;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #f77da8;
+  --nav-background-color: #86cdd9;
+  --nav-hover-link-color: #000002;
+  --nav-hover-background-color: #ffdfec;
 }
 
 body {
@@ -38,31 +38,11 @@ img {
   height: auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  /* font-family: var(--heading-font); */
+  font-family: var(--heading-font);
   color: var(--headline-color-on-white);
-} 
-.lemon {
-  font-family: lemon;
-}
-.chewy {
-  font-family: chewy;
-}
-.coiny {
-  font-family: coiny;
-}
-.gamjaFlower {
-  font-family: 'gamja flower';
-}
-.mysteryQuest {
-  font-family: 'mystery quest';
-}
-.gorditas {
-  font-family: gorditas;
-}
-.chicle {
-  font-family: chicle;
   font-weight: 100;
-}
+} 
+
 
 
 h2 {
@@ -84,17 +64,12 @@ header > h1, header > h2 {
 }
 
 p {
-  /* font-family: var(--paragraph-font); */
+  font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
   text-align: left;
 }
-.roboto {
-  font-family: roboto;
-}
-.robotoSlab {
-  font-family: 'roboto slab';
-}
+
 .colors {
   width: 100%;
   min-width: 350px;
