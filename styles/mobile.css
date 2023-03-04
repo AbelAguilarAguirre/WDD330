@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Autour+One&family=Chewy&family=Chicle&family=Coiny&family=Gamja+Flower&family=Gorditas&family=Lemon&family=Mystery+Quest&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+:root {
+    --blue: #86cdd9;
+    --pinkred: #ffdfec;
+    --black: #000002;
+    --white: #f2e6d8;
+
+    --heading-font: chicle, serif;
+    --paragraph-font: "roboto slab", sans-serif;
+}
+/* --------------------------------------header and logos------------------------------------- */
+.logoimg,
+.footerlogo img {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+/* --------------------------------------hamburger button & Navigation------------------------------------- */
+.ham {
+    max-width: 63px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: var(--black);
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+    transition: 0.4s;
+}
+
+.change .bar2 {
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+    transition: 0.4s;
+}
+
+.navigation {
+    margin: 0px;
+    transition: 0.4s;
+    list-style: none;
+    padding: 0;
+    font-family: var(--heading-font);
+    font-size: 30px;
+}
+.navigation li {
+    display: none;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.responsive li {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.navigation li:first-child {
+    display: block;
+    max-width: 63px;
+}
+
+.navigation li:hover:nth-child(odd) {
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.navigation li:hover:nth-child(even) {
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.navigation li a:hover {
+    background-color: var(--pinkred);
+    color: var(--black);
+}
+
+.navigation a {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: var(--black);
+    transition: 0.5s;
+    background-color: var(--blue);
+    border-radius: 5px;
+    justify-content: center;
+}
