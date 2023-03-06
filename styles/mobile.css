@@ -3,17 +3,25 @@
 :root {
     --blue: #86cdd9;
     --pinkred: #ffdfec;
+    --clearpinkred: #ffdfece0;
     --black: #000002;
     --white: #f2e6d8;
 
     --heading-font: chicle, serif;
     --paragraph-font: "roboto slab", sans-serif;
 }
+
+body {
+    margin: 0;
+    background-color: var(--pinkred);
+}
 /* --------------------------------------header and logos------------------------------------- */
 .logoimg,
 .footerlogo img {
     max-width: 100px;
     border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px ;
 }
 
 header {
@@ -24,7 +32,7 @@ header {
 
 /* --------------------------------------hamburger button & Navigation------------------------------------- */
 .ham {
-    max-width: 63px;
+    margin-left: 10px;
 }
 
 .bar1,
@@ -90,7 +98,7 @@ header {
 }
 
 .navigation li a:hover {
-    background-color: var(--pinkred);
+    background-color: var(--blue);
     color: var(--black);
 }
 
@@ -104,4 +112,26 @@ header {
     background-color: var(--blue);
     border-radius: 5px;
     justify-content: center;
+}
+
+/* --------------------------------------Hero banner------------------------------------- */
+#hero-banner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+#hero-banner img {
+    max-width: 100%;
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+
+#hero-banner a {
+    background-color: var(--clearpinkred);
+    color: var(--black);
+    grid-row: 3/4;
+    grid-column: 1/4;
+    border-radius: 30px;
+    text-align: center;
+    
 }
