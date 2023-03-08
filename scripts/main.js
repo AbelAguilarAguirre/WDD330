@@ -10,8 +10,15 @@ async function displayHeaderFooter() {
     const footer = await loadTemplate('templates/footer.html');
     renderWithTemplate(header, document.getElementById('header'), 'beforebegin', true);
     renderWithTemplate(footer, document.getElementById('footer'), 'beforeend', true);
-    let hambutton = document.querySelector('.ham');
-    let mainnav = document.querySelector('nav');
-    hambutton.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);
+    let dropdown = document.querySelector('.dropbtn');
+    let dropdownContent = document.querySelector('.dropdown-content');
+    dropdown.addEventListener('click', () => { dropdownContent.classList.toggle('responsive') }, false);
+    var wrapper = document.querySelector('nav');
+    document.addEventListener('click', function (e) {
+        if (!wrapper.contains(e.target)) {
+            dropdownContent.classList.remove('responsive');
+            dropdown.classList.remove('change');
+        }
+    })
 }
 
