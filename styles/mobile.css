@@ -161,3 +161,12 @@ hr {
     margin-top: 5px;
 
 }
+
+/* --------------------------------------Footer------------------------------------- */
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
