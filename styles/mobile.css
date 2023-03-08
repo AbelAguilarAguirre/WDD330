@@ -9,11 +9,18 @@
 
     --heading-font: chicle, serif;
     --paragraph-font: "roboto slab", sans-serif;
+
+    --boxshadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 body {
     margin: 0;
     background-color: var(--pinkred);
+}
+h1,h2,h3,h4 {
+    font-family: var(--heading-font);
+    font-weight: 100;
+    margin: 0;
 }
 /* --------------------------------------header and logos------------------------------------- */
 .logoimg,
@@ -21,7 +28,7 @@ body {
     max-width: 100px;
     border-radius: 10px;
     margin: 10px;
-    box-shadow: 0px 0px 10px;
+    box-shadow: var(--boxshadow);
 }
 
 header {
@@ -31,6 +38,10 @@ header {
     align-items: center;
 }
 
+hr {
+    border-top: 3px solid var(--blue);
+    box-shadow: var(--boxshadow);
+ }
 /* --------------------------------------hamburger button & Navigation------------------------------------- */
 
 .bar1,
@@ -59,35 +70,45 @@ header {
     transition: 0.4s;
 }
 
+
 .dropbtn {
-    background-color: #4caf50;
-    color: white;
+    background-color: var(--blue);
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
+    box-shadow:var(--boxshadow);
 }
+
+.change {
+    border-radius: 10px 10px 0 0;
+}
+
 .dropdown-content {
     visibility: hidden;
     position: absolute;
     right: 0;
-    background-color: #f9f9f9;
+    background-color: var(--blue);
     min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:var(--boxshadow);
     z-index: 1;
     opacity: 0;
     transition: all .3s ease;
+    
 }
 
 .dropdown-content a {
-    color: black;
+    color: var(--black);
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content h2 {
     text-align: center;
+    padding: 10px;
+    border: var(--black) 1px solid;
+    
 }
 
 .responsive {
@@ -95,20 +116,18 @@ header {
     transition: all .3s ease;
     opacity: 1;
 }
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
 /* --------------------------------------Hero banner------------------------------------- */
 #hero-banner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    width: 100vw;
+    overflow: hidden;
 }
 #hero-banner img {
-    max-width: 100%;
     grid-column: 1/5;
     grid-row: 1/5;
+    box-shadow: var(--boxshadow);
 }
 
 #hero-banner a {
@@ -117,12 +136,10 @@ header {
     border: none;
     grid-row: 3/4;
     grid-column: 1/5;
-    border-radius: 30px;
     padding: 20px 34px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
     cursor: pointer;
 }
