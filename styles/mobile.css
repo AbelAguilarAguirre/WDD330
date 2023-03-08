@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Autour+One&family=Chewy&family=Chicle&family=Coiny&family=Gamja+Flower&family=Gorditas&family=Lemon&family=Mystery+Quest&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 :root {
-    --blue: #f3a8c6;
+    --darkerpink: #f3a8c6;
     --pinkred: #ffdfec;
     --clearpinkred: #ffdfeca6;
     --black: #000002;
@@ -21,6 +21,12 @@ h1,h2,h3,h4 {
     font-family: var(--heading-font);
     font-weight: 100;
     margin: 0;
+    text-align: center;
+}
+p {
+    font-family: var(--paragraph-font);
+    padding: 8px;
+    text-align: center;
 }
 /* --------------------------------------header and logos------------------------------------- */
 .logoimg,
@@ -36,10 +42,15 @@ header {
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
+    gap: 5px;
+}
+
+.title {
+    text-align: center;
 }
 
 hr {
-    border-top: 3px solid var(--blue);
+    border-top: 3px solid var(--darkerpink);
     box-shadow: var(--boxshadow);
  }
 /* --------------------------------------hamburger button & Navigation------------------------------------- */
@@ -72,7 +83,7 @@ hr {
 
 
 .dropbtn {
-    background-color: var(--blue);
+    background-color: var(--darkerpink);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -89,7 +100,7 @@ hr {
     visibility: hidden;
     position: absolute;
     right: 0;
-    background-color: var(--blue);
+    background-color: var(--darkerpink);
     min-width: 100%;
     box-shadow:var(--boxshadow);
     z-index: 1;
@@ -142,4 +153,11 @@ hr {
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
+}
+
+/* --------------------------------------Home message------------------------------------- */
+
+.homeMessage {
+    margin-top: 5px;
+
 }
