@@ -50,7 +50,7 @@ header {
 }
 
 hr {
-    border-top: 3px solid var(--darkerpink);
+    border-top: 5px solid var(--darkerpink);
     box-shadow: var(--boxshadow);
  }
 /* --------------------------------------hamburger button & Navigation------------------------------------- */
@@ -139,13 +139,14 @@ hr {
     grid-column: 1/5;
     grid-row: 1/5;
     box-shadow: var(--boxshadow);
+    max-width: 425px;
 }
 
 #hero-banner a {
     background-color: var(--clearpinkred);
     color: var(--black);
     border: none;
-    grid-row: 3/4;
+    grid-row: 4/5;
     grid-column: 1/5;
     padding: 20px 34px;
     text-align: center;
@@ -153,6 +154,8 @@ hr {
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
+    max-height: 30px;
+    align-self: flex-end;
 }
 
 /* --------------------------------------Home message------------------------------------- */
