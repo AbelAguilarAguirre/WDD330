@@ -1,19 +1,35 @@
-@media only screen and (min-width: 426px) {
-    .navigation {
+@media only screen and (min-width: 532px) {
+    header {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         flex-flow: row wrap;
-      }
-      nav {
-        width: 100%;
-      }
-      .navigation li:first-child {
-        display: none;
-      }
-      .navigation li {
-        display: block;
-        max-width: 220px;
-        min-height: 58.5px;
-      }
+    }
+    .dropdown-content {
+      min-width: 30%;
+    }
+    nav {
+      position: absolute;
+      right: 20px;
+    }
+    #hero-banner {
+      max-height: 600px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    #hero-banner img {
+      max-width: 500px;
+    }
+    main {
+      margin: 0 auto;
+    }
+    .homeMessage {
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 5%;
+    }
+    .instagram {
+      max-width: 540px;
+      margin: 0 auto;
+    }
 }
