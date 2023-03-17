@@ -17,7 +17,10 @@ body {
     margin: 0;
     background-color: var(--pinkred);
 }
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--heading-font);
     font-weight: 100;
     margin: 0;
@@ -52,7 +55,7 @@ header {
 hr {
     border-top: 5px solid var(--darkerpink);
     box-shadow: var(--boxshadow);
- }
+}
 /* --------------------------------------hamburger button & Navigation------------------------------------- */
 
 .bar1,
@@ -81,7 +84,6 @@ hr {
     transition: 0.4s;
 }
 
-
 .dropbtn {
     background-color: var(--darkerpink);
     padding: 16px;
@@ -89,7 +91,7 @@ hr {
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow:var(--boxshadow);
+    box-shadow: var(--boxshadow);
 }
 
 .change {
@@ -100,13 +102,11 @@ hr {
     visibility: hidden;
     position: absolute;
     right: 0;
-    background-color: var(--darkerpink);
     min-width: 100%;
-    box-shadow:var(--boxshadow);
+    box-shadow: var(--boxshadow);
     z-index: 1;
     opacity: 0;
-    transition: all .3s ease;
-    
+    transition: all 0.3s ease;
 }
 
 .dropdown-content a {
@@ -119,12 +119,12 @@ hr {
     text-align: center;
     padding: 10px;
     border: var(--black) 1px solid;
-    
+    background-color: var(--darkerpink);
 }
 
 .responsive {
     visibility: visible;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     opacity: 1;
 }
 /* --------------------------------------Hero banner------------------------------------- */
@@ -139,7 +139,13 @@ hr {
     grid-column: 1/5;
     grid-row: 1/5;
     box-shadow: var(--boxshadow);
-    max-width: 425px;
+    max-height: 600px;
+    width: auto;
+    animation-name: imgFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 441s;
+    animation-direction: alternate;
 }
 
 #hero-banner a {
@@ -156,13 +162,157 @@ hr {
     cursor: pointer;
     max-height: 30px;
     align-self: flex-end;
+    z-index: 100;
+}
+@keyframes imgFadeInOut {
+    0% {
+        opacity: 1;
+    }
+    2.26% {
+        opacity: 1;
+    }
+    2.38% {
+        opacity: 0;
+    }
+    99.88% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#hero-banner > img:nth-child(1) {
+    animation-delay: 430.5s;
+}
+#hero-banner > img:nth-child(2) {
+    animation-delay: 420s;
+}
+#hero-banner > img:nth-child(3) {
+    animation-delay: 409.5s;
+}
+#hero-banner > img:nth-child(4) {
+    animation-delay: 399s;
+}
+#hero-banner > img:nth-child(5) {
+    animation-delay: 388.5s;
+}
+#hero-banner > img:nth-child(6) {
+    animation-delay: 378s;
+}
+#hero-banner > img:nth-child(7) {
+    animation-delay: 367.5s;
+}
+#hero-banner > img:nth-child(8) {
+    animation-delay: 357s;
+}
+#hero-banner > img:nth-child(9) {
+    animation-delay: 346.5s;
+}
+#hero-banner > img:nth-child(10) {
+    animation-delay: 336s;
+}
+#hero-banner > img:nth-child(11) {
+    animation-delay: 325.5s;
+}
+#hero-banner > img:nth-child(12) {
+    animation-delay: 315s;
+}
+#hero-banner > img:nth-child(13) {
+    animation-delay: 304.5s;
+}
+#hero-banner > img:nth-child(14) {
+    animation-delay: 294s;
+}
+#hero-banner > img:nth-child(15) {
+    animation-delay: 283.5s;
+}
+#hero-banner > img:nth-child(16) {
+    animation-delay: 273s;
+}
+#hero-banner > img:nth-child(17) {
+    animation-delay: 262.5s;
+}
+#hero-banner > img:nth-child(18) {
+    animation-delay: 252s;
+}
+#hero-banner > img:nth-child(19) {
+    animation-delay: 241.5s;
+}
+#hero-banner > img:nth-child(20) {
+    animation-delay: 231s;
+}
+#hero-banner > img:nth-child(21) {
+    animation-delay: 220.5s;
+}
+#hero-banner > img:nth-child(22) {
+    animation-delay: 210s;
+}
+#hero-banner > img:nth-child(23) {
+    animation-delay: 199.5s;
+}
+#hero-banner > img:nth-child(24) {
+    animation-delay: 189s;
+}
+#hero-banner > img:nth-child(25) {
+    animation-delay: 178.5s;
+}
+#hero-banner > img:nth-child(26) {
+    animation-delay: 168s;
+}
+#hero-banner > img:nth-child(27) {
+    animation-delay: 157.5s;
+}
+#hero-banner > img:nth-child(28) {
+    animation-delay: 147s;
+}
+#hero-banner > img:nth-child(29) {
+    animation-delay: 136.5s;
+}
+#hero-banner > img:nth-child(30) {
+    animation-delay: 126s;
+}
+#hero-banner > img:nth-child(31) {
+    animation-delay: 115.5s;
+}
+#hero-banner > img:nth-child(32) {
+    animation-delay: 105s;
+}
+#hero-banner > img:nth-child(33) {
+    animation-delay: 94.5s;
+}
+#hero-banner > img:nth-child(34) {
+    animation-delay: 84s;
+}
+#hero-banner > img:nth-child(35) {
+    animation-delay: 73.5s;
+}
+#hero-banner > img:nth-child(36) {
+    animation-delay: 63s;
+}
+#hero-banner > img:nth-child(37) {
+    animation-delay: 52.5s;
+}
+#hero-banner > img:nth-child(38) {
+    animation-delay: 42s;
+}
+#hero-banner > img:nth-child(39) {
+    animation-delay: 31.5s;
+}
+#hero-banner > img:nth-child(40) {
+    animation-delay: 21s;
+}
+#hero-banner > img:nth-child(41) {
+    animation-delay: 10.5s;
+}
+#hero-banner > img:nth-child(42) {
+    animation-delay: 0s;
 }
 
 /* --------------------------------------Home message------------------------------------- */
 
 .homeMessage {
     margin-top: 5px;
-
 }
 
 /* --------------------------------------Footer------------------------------------- */

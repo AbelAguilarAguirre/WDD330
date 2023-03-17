@@ -6,30 +6,36 @@
         flex-flow: row wrap;
     }
     .dropdown-content {
-      min-width: 30%;
+        min-width: 250px;
+    }
+    .dropdown-content h2 {
+      border-radius: 5px;
+    }
+    .dropdown-content a {
+      margin-bottom: 2px;
     }
     nav {
-      position: absolute;
-      right: 20px;
+        position: absolute;
+        right: 20px;
     }
     #hero-banner {
-      max-height: 600px;
-      max-width: 500px;
-      margin: 0 auto;
+        max-height: 600px;
+        max-width: 500px;
+        margin: 0 auto;
     }
     #hero-banner img {
-      max-width: 500px;
+        max-width: 500px;
     }
     main {
-      margin: 0 auto;
+        margin: 0 auto;
     }
     .homeMessage {
-      text-align: center;
-      margin: 0 auto;
-      padding: 0 5%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 5%;
     }
     .instagram {
-      max-width: 540px;
-      margin: 0 auto;
+        max-width: 540px;
+        margin: 0 auto;
     }
 }
