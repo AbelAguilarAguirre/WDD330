@@ -1,5 +1,83 @@
-@media only screen and (min-width: 769px) {
-    .navigation {
+:root {
+    --primary1: #f38375;
+    --background1: #ffe3e0;
+    --accent: #f7a299;
+    --accentclear: #f7a299c4;
+    --darkaccent: #34312d;
+    --lightaccent: #6a8e7f;
+
+    --heading-font: chicle, serif;
+    --paragraph-font: "roboto slab", sans-serif;
+
+    --boxshadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 880px) {
+    nav {
+        position: static;
+    }
+    .dropbtn {
+        display: none;
+    }
+    .dropdown-content {
+        visibility: visible;
+        opacity: 1;
+        position: static;
+        display: flex;
+        gap: 5px;
+        flex-flow: row wrap;
+    }
+    .dropdown-content a h2{
+        transition: all .5s ease-in-out;
+    }
+    .dropdown-content a h2:hover{
+        background-color: var(--lightaccent);
+        transition: all .5s ease-in-out;
+        scale: 1.1;
+        color: var(--primary1);
+    }
+    header {
+        max-width: 506px;
+        margin: 0 auto;
+    }
+    main {
+        display: flex;
+        flex-flow: row wrap;
         justify-content: space-around;
+        gap: 10px;
+        align-items: center;
+    }
+    main hr {
+        display: none;
+    }
+    main > div {
+        max-width: 25%;
+    }
+    body > main > div.homeMessage {
+        padding: 10px;
+        margin: 0 auto;
+        order: 1;
+    }
+    #hero-banner {
+        order: 2;
+    }
+    #hero-banner > a:hover {
+        background-color: var(--accent);
+        transition: all .5s ease-in-out;
+    }
+    #hero-banner > a > h2,
+    #hero-banner > a {
+        transition: all .5s ease-in-out;
+    }
+    #hero-banner > a > h2:hover {
+        scale: 1.1;
+        transition: all .5s ease-in-out;
+    }
+    body > main > div.instagram {
+        order: 3;
+    }
+    footer {
+        justify-content: space-around;
+        max-width: 506px;
+        margin: 0 auto;
     }
 }
