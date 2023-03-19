@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Autour+One&family=Chewy&family=Chicle&family=Coiny&family=Gamja+Flower&family=Gorditas&family=Lemon&family=Mystery+Quest&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 :root {
-    --primary1: #AA6DA3;
+    --primary1: #f1a6b9;
     --background1: #feeafa;
-    --accentclear: #98c1d9ce;
+    --accentclear: #ffbccdd7;
     --darkaccent: #242038;
     --lightaccent: #a3e7fc;
-
+    --accent: #be5771;
     --heading-font: chicle, serif;
     --paragraph-font: "roboto slab", sans-serif;
 

@@ -23,6 +23,7 @@
         max-height: 600px;
         max-width: 500px;
         margin: 0 auto;
+        border-radius: 0 0 10px 10px;
     }
     .pic {
         max-width: 500px;
@@ -39,5 +40,11 @@
     .instagram {
         max-width: 540px;
         margin: 0 auto;
+    }
+    #hero-banner > a {
+        border-radius: 0 0 4px 4px;
+    }
+    #hero-banner > a > h2 {
+        border-radius: 0 0 5px 5px;
     }
 }
