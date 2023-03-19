@@ -5,64 +5,64 @@
         "Image": [
             {
                 "Title": "Choco Flan",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat1.webp" 
             },
             {
                 "Title": "Chocolate dipped pretzels and marshmallows",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat2.webp" 
             },
             {
                 "Title": "Chocolate strawberries, pretzels, and oreos",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat3.webp" 
             },
             {
                 "Title": "Chocolate strawberries",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat4.webp" 
             },
             {
                 "Title": "Cupcakes",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat5.webp" 
             },
             {
                 "Title": "Cupcakes",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat6.webp" 
             },
             {
                 "Title": "Cakepops",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat7.webp" 
             },
             {
                 "Title": "Chocolate Strawberry Bouquet",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat8.webp" 
             },
             {
                 "Title": "Chocolate Strawberry Bouquet",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat9.webp" 
             },
             {
                 "Title": "Flan",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat10.webp" 
             },
             {
                 "Title": "Cupcakes",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat11.webp" 
             },
             {
                 "Title": "Chocolate dipped pretzels and strawberries",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat12.webp" 
             },
             {
                 "Title": "Pineapple Upside Down Cake",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat13.webp" 
             },
             {
                 "Title": "Cupcakes",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/custom-treat14.webp" 
             }
         ]
       },
       {
-        "category": "wedding",
+        "Category": "Weddings",
         "Image": [
             {
                 "Title": "Wedding Table",
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "category": "graduation",
+        "Category": "Graduations",
         "Image": [
             {
                 "Title": "Cupcakes",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "category": "gender reveal and baby shower",
+        "Category": "Gender Reveals and Baby Showers",
         "Image": [
             {
                 "Title": "Cakepops",
@@ -145,7 +145,7 @@
         ]
       },
       {
-        "category": "themed party",
+        "Category": "Themed parties",
         "Image": [
             {
                 "Title": "Unicorn Theme",
@@ -274,7 +274,7 @@
         ]
       },
       {
-        "category": "holiday",
+        "Category": "Holidays",
         "Image": [
             {
                 "Title": "Fathers Day Chocolate Strawberries and Pretzeles",
@@ -319,7 +319,7 @@
         ]
       },
       {
-        "category": "sweet16",
+        "Category": "Sweet 16 and Quinceañera",
         "Image": [
             {
                 "Title": "Quincenera",
