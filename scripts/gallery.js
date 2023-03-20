@@ -6,7 +6,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.log(jsonObject);
     const images = jsonObject['Images'];
     images.forEach(displayImages);
   });
