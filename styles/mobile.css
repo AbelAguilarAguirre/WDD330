@@ -217,6 +217,22 @@ hr {
 .homeMessage {
     margin-top: 5px;
 }
+/* ----------------------------------------Gallery ---------------------------------------*/
+.category img {
+    max-width: 100px;
+    height: auto;
+    box-shadow: var(--boxshadow);
+    border-radius: 5px;
+}
+.category {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    max-height: 1000px; 
+}
+.category h2{
+    display: block;
+}
 
 /* --------------------------------------Footer------------------------------------- */
 footer {

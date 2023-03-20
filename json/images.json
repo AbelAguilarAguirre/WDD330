@@ -66,39 +66,39 @@
         "Image": [
             {
                 "Title": "Wedding Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding1.webp" 
             },
             {
                 "Title": "Strawberries and Cream",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding2.webp" 
             },
             {
                 "Title": "Wedding Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding3.webp" 
             },
             {
                 "Title": "Lemon Charlotte",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding4.webp" 
             },
             {
                 "Title": "Chocolate Dipped Pretezels",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding5.webp" 
             },
             {
                 "Title": "Wedding Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding7.webp" 
             },
             {
                 "Title": "Wedding Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding8.webp" 
             },
             {
                 "Title": "Wedding Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding9.webp" 
             },
             {
                 "Title": "Wedding Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/wedding10.webp" 
             }
         ]
       },
@@ -107,15 +107,15 @@
         "Image": [
             {
                 "Title": "Cupcakes",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/graduation1.webp" 
             },
             {
                 "Title": "Graduation Rice Crispy",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/graduation2.webp" 
             },
             {
                 "Title": "Graduation Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/graduation3.webp" 
             }
         ]
       },
@@ -124,23 +124,23 @@
         "Image": [
             {
                 "Title": "Cakepops",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/gender-babyshower1.webp" 
             },
             {
                 "Title": "Mixed Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/gender-babyshower2.webp" 
             },
             {
                 "Title": "Mixed Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/gender-babyshower3.webp" 
             },
             {
                 "Title": "Mixed Table",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/gender-babyshower4.webp" 
             },
             {
                 "Title": "Fruit Cups",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/gender-babyshower5.webp" 
             }
         ]
       },
@@ -149,127 +149,139 @@
         "Image": [
             {
                 "Title": "Unicorn Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Flower Power Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed2.webp" 
             },
             {
                 "Title": "Flower Power Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed3.webp" 
             },
             {
                 "Title": "Minions Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed4.webp" 
             },
             {
                 "Title": "Minions Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed5.webp" 
             },
             {
                 "Title": "Dragon Ball Z Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed6.webp" 
             },
             {
                 "Title": "Dragon Ball Z Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed7.webp" 
             },
             {
                 "Title": "Sing Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed8.webp" 
             },
             {
                 "Title": "Sonic Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed9.webp" 
             },
             {
                 "Title": "Sonic Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed10.webp" 
             },
             {
                 "Title": "Sonic Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed11.webp" 
             },
             {
                 "Title": "Monsters Inc. Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed12.webp" 
             },
             {
                 "Title": "Beach Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed13.webp" 
             },
             {
                 "Title": "Cat Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed14.webp" 
             },
             {
                 "Title": "Cat Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed15.webp" 
             },
             {
                 "Title": "Paw Patrol Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed16.webp" 
             },
             {
                 "Title": "Beach Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed17.webp" 
             },
             {
                 "Title": "Bee Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed18.webp" 
             },
             {
                 "Title": "Bee Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed19.webp" 
             },
             {
                 "Title": "Bee Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed20.webp" 
             },
             {
                 "Title": "Bee Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed21.webp" 
             },
             {
                 "Title": "Bee Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed22.webp" 
             },
             {
                 "Title": "Bee Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed23.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed24.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed25.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed26.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed27.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed28.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed29.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed30.webp" 
             },
             {
                 "Title": "Spiderman Theme",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed31.webp" 
+            },
+            {
+                "Title": "Spiderman Theme",
+                "Src": "images/website-candy-tables/themed32.webp" 
+            },
+            {
+                "Title": "Spiderman Theme",
+                "Src": "images/website-candy-tables/themed33.webp" 
+            },
+            {
+                "Title": "Spiderman Theme",
+                "Src": "images/website-candy-tables/themed34.webp" 
             }
         ]
       },
@@ -278,43 +290,43 @@
         "Image": [
             {
                 "Title": "Fathers Day Chocolate Strawberries and Pretzeles",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Christmas Cakepops",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Christmas Cakepops",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Oreo Bear",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Valentines Day Chocolate Dipped Oreos",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Valentines Day Chocolate Dipped Oreos",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Halloween Cakepops",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             }
         ]
       },
@@ -323,11 +335,11 @@
         "Image": [
             {
                 "Title": "Quincenera",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/themed1.webp" 
             },
             {
                 "Title": "Sweet Sixteen",
-                "Src": "https://github.com/AbelAguilarAguirre/WDD330/blob/main/images/website-candy-tables/custom-treat1.webp" 
+                "Src": "images/website-candy-tables/graduation1.webp" 
             }
          
         ]
