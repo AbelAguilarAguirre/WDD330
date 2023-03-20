@@ -240,6 +240,7 @@ hr {
 }
 figcaption {
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 
 
