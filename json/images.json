@@ -77,10 +77,6 @@
                 "Src": "images/website-candy-tables/wedding3.webp" 
             },
             {
-                "Title": "Lemon Charlotte",
-                "Src": "images/website-candy-tables/wedding4.webp" 
-            },
-            {
                 "Title": "Chocolate Dipped Pretezels",
                 "Src": "images/website-candy-tables/wedding5.webp" 
             },
@@ -99,6 +95,10 @@
             {
                 "Title": "Wedding Table",
                 "Src": "images/website-candy-tables/wedding10.webp" 
+            },
+            {
+                "Title": "Lemon Charlotte",
+                "Src": "images/website-candy-tables/wedding4.webp" 
             }
         ]
       },
@@ -149,18 +149,14 @@
         "Image": [
             {
                 "Title": "Unicorn Theme",
-                "Src": "images/website-candy-tables/themed1.webp" 
-            },
-            {
-                "Title": "Flower Power Theme",
-                "Src": "images/website-candy-tables/themed2.webp" 
+                "Src": "images/website-candy-tables/holiday1.webp"  
             },
             {
                 "Title": "Flower Power Theme",
                 "Src": "images/website-candy-tables/themed3.webp" 
             },
             {
-                "Title": "Minions Theme",
+                "Title": "Flower Power Theme",
                 "Src": "images/website-candy-tables/themed4.webp" 
             },
             {
@@ -168,8 +164,13 @@
                 "Src": "images/website-candy-tables/themed5.webp" 
             },
             {
-                "Title": "Dragon Ball Z Theme",
+                "Title": "Minions Theme",
                 "Src": "images/website-candy-tables/themed6.webp" 
+            },
+            
+            {
+                "Title": "Dragon Ball Z Theme",
+                "Src": "images/website-candy-tables/themed8.webp" 
             },
             {
                 "Title": "Dragon Ball Z Theme",
@@ -177,10 +178,6 @@
             },
             {
                 "Title": "Sing Theme",
-                "Src": "images/website-candy-tables/themed8.webp" 
-            },
-            {
-                "Title": "Sonic Theme",
                 "Src": "images/website-candy-tables/themed9.webp" 
             },
             {
@@ -193,38 +190,30 @@
             },
             {
                 "Title": "Monsters Inc. Theme",
-                "Src": "images/website-candy-tables/themed12.webp" 
-            },
-            {
-                "Title": "Beach Theme",
-                "Src": "images/website-candy-tables/themed13.webp" 
-            },
-            {
-                "Title": "Cat Theme",
-                "Src": "images/website-candy-tables/themed14.webp" 
-            },
-            {
-                "Title": "Cat Theme",
                 "Src": "images/website-candy-tables/themed15.webp" 
             },
             {
-                "Title": "Paw Patrol Theme",
+                "Title": "Beach Theme",
                 "Src": "images/website-candy-tables/themed16.webp" 
             },
             {
-                "Title": "Beach Theme",
+                "Title": "Cat Theme",
                 "Src": "images/website-candy-tables/themed17.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Cat Theme",
                 "Src": "images/website-candy-tables/themed18.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Sonic Theme",
+                "Src": "images/website-candy-tables/themed12.webp" 
+            },
+            {
+                "Title": "Paw Patrol Theme",
                 "Src": "images/website-candy-tables/themed19.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Beach Theme",
                 "Src": "images/website-candy-tables/themed20.webp" 
             },
             {
@@ -240,16 +229,20 @@
                 "Src": "images/website-candy-tables/themed23.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Bee Theme",
                 "Src": "images/website-candy-tables/themed24.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Bee Theme",
                 "Src": "images/website-candy-tables/themed25.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Bee Theme",
                 "Src": "images/website-candy-tables/themed26.webp" 
+            },
+            {
+                "Title": "Spiderman Theme",
+                "Src": "images/website-candy-tables/themed30.webp" 
             },
             {
                 "Title": "Spiderman Theme",
@@ -262,10 +255,6 @@
             {
                 "Title": "Spiderman Theme",
                 "Src": "images/website-candy-tables/themed29.webp" 
-            },
-            {
-                "Title": "Spiderman Theme",
-                "Src": "images/website-candy-tables/themed30.webp" 
             },
             {
                 "Title": "Spiderman Theme",
@@ -288,45 +277,46 @@
       {
         "Category": "Holidays",
         "Image": [
+            
+            {
+                "Title": "Christmas Cakepops",
+                "Src": "images/website-candy-tables/holiday2.webp"  
+            },
+            {
+                "Title": "Christmas Cakepops",
+                "Src": "images/website-candy-tables/holiday3.webp"  
+            },
             {
                 "Title": "Fathers Day Chocolate Strawberries and Pretzeles",
-                "Src": "images/website-candy-tables/themed1.webp" 
-            },
-            {
-                "Title": "Christmas Cakepops",
-                "Src": "images/website-candy-tables/themed1.webp" 
-            },
-            {
-                "Title": "Christmas Cakepops",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday1.webp" 
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Oreo Bear",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday4.webp"  
             },
             {
                 "Title": "Valentines Day Chocolate Dipped Oreos",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday5.webp"  
             },
             {
                 "Title": "Valentines Day Chocolate Dipped Oreos",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday6.webp"  
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday7.webp"  
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday8.webp"  
             },
             {
                 "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday9.webp"  
             },
             {
                 "Title": "Halloween Cakepops",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/holiday10.webp"  
             }
         ]
       },
@@ -335,11 +325,11 @@
         "Image": [
             {
                 "Title": "Quincenera",
-                "Src": "images/website-candy-tables/themed1.webp" 
+                "Src": "images/website-candy-tables/quince1.webp"  
             },
             {
                 "Title": "Sweet Sixteen",
-                "Src": "images/website-candy-tables/graduation1.webp" 
+                "Src": "images/website-candy-tables/quince2.webp" 
             }
          
         ]

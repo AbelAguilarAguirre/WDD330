@@ -219,20 +219,31 @@ hr {
 }
 /* ----------------------------------------Gallery ---------------------------------------*/
 .category img {
-    max-width: 100px;
-    height: auto;
     box-shadow: var(--boxshadow);
     border-radius: 5px;
+    width: 100%;
+    height: auto;
 }
 .category {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     gap: 5px;
-    max-height: 1000px; 
+    justify-content: center;
 }
-.category h2{
-    display: block;
+.category figure {
+    max-width: 45%;
+    height: auto;
+    margin: 0;
 }
+.category hr {
+    width: 100%;
+}
+figcaption {
+    text-align: center;
+}
+
+
+
 
 /* --------------------------------------Footer------------------------------------- */
 footer {

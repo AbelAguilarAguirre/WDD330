@@ -50,6 +50,17 @@
     main > div {
         max-width: 25%;
     }
+    .category img {
+        height: 300px;
+        max-width: none;
+        width: auto;
+    }
+    .gallery hr{
+        display: block;
+    }
+    .gallery > div {
+        max-width: none;
+    }
     body > main > div.homeMessage {
         padding: 10px;
         margin: 0 auto;

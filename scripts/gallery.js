@@ -14,11 +14,16 @@ fetch(requestURL)
     let imgTemplate = '';
     imgTemplate =
         `<div class='category'>
-            <h2>${image.Category}</h2>`
+            <h2>${image.Category}</h2>
+            <hr>`
     image.Image.forEach(image => {
         imgTemplate +=
-        `<img src='${image.Src}' alt='${image.Title}' loading='lazy'>`
-         
+       `<figure>
+        <img src="${image.Src}" alt="${image.Title}" loading='lazy'>
+        <figcaption>${image.Title}</figcaption>
+      </figure>`
     })
+    imgTemplate += 
+    `<hr></div>`
     imageCards.innerHTML += imgTemplate;
   }
