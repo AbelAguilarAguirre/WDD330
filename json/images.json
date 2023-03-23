@@ -65,7 +65,7 @@
         "Category": "Weddings",
         "Image": [
             {
-                "Title": "Wedding Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/wedding1.webp" 
             },
             {
@@ -73,7 +73,15 @@
                 "Src": "images/website-candy-tables/wedding2.webp" 
             },
             {
-                "Title": "Wedding Table",
+                "Title": " ",
+                "Src": "images/full-tables/1.webp" 
+            },
+            {
+                "Title": "Lemon Charlotte",
+                "Src": "images/website-candy-tables/wedding4.webp" 
+            },
+            {
+                "Title": " ",
                 "Src": "images/website-candy-tables/wedding3.webp" 
             },
             {
@@ -81,24 +89,20 @@
                 "Src": "images/website-candy-tables/wedding5.webp" 
             },
             {
-                "Title": "Wedding Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/wedding7.webp" 
             },
             {
-                "Title": "Wedding Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/wedding8.webp" 
             },
             {
-                "Title": "Wedding Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/wedding9.webp" 
             },
             {
-                "Title": "Wedding Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/wedding10.webp" 
-            },
-            {
-                "Title": "Lemon Charlotte",
-                "Src": "images/website-candy-tables/wedding4.webp" 
             }
         ]
       },
@@ -127,15 +131,15 @@
                 "Src": "images/website-candy-tables/gender-babyshower1.webp" 
             },
             {
-                "Title": "Mixed Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/gender-babyshower2.webp" 
             },
             {
-                "Title": "Mixed Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/gender-babyshower3.webp" 
             },
             {
-                "Title": "Mixed Table",
+                "Title": " ",
                 "Src": "images/website-candy-tables/gender-babyshower4.webp" 
             },
             {
@@ -148,128 +152,128 @@
         "Category": "Themed parties",
         "Image": [
             {
-                "Title": "Unicorn Theme",
+                "Title": "Unicorn  ",
                 "Src": "images/website-candy-tables/themed1.webp"  
             },
             {
-                "Title": "Flower Power Theme",
+                "Title": "Flower Power  ",
                 "Src": "images/website-candy-tables/themed3.webp" 
             },
             {
-                "Title": "Flower Power Theme",
+                "Title": "Flower Power  ",
                 "Src": "images/website-candy-tables/themed4.webp" 
             },
             {
-                "Title": "Minions Theme",
+                "Title": "Minions  ",
                 "Src": "images/website-candy-tables/themed5.webp" 
             },
             {
-                "Title": "Minions Theme",
+                "Title": "Minions  ",
                 "Src": "images/website-candy-tables/themed6.webp" 
             },
             
             {
-                "Title": "Dragon Ball Z Theme",
+                "Title": "Dragon Ball Z  ",
                 "Src": "images/website-candy-tables/themed8.webp" 
             },
             {
-                "Title": "Dragon Ball Z Theme",
+                "Title": "Dragon Ball Z  ",
                 "Src": "images/website-candy-tables/themed7.webp" 
             },
             {
-                "Title": "Sing Theme",
+                "Title": "Sing  ",
                 "Src": "images/website-candy-tables/themed9.webp" 
             },
             {
-                "Title": "Sonic Theme",
+                "Title": "Sonic  ",
                 "Src": "images/website-candy-tables/themed10.webp" 
             },
             {
-                "Title": "Sonic Theme",
+                "Title": "Sonic  ",
                 "Src": "images/website-candy-tables/themed11.webp" 
             },
             {
-                "Title": "Monsters Inc. Theme",
+                "Title": "Monsters Inc.  ",
                 "Src": "images/website-candy-tables/themed15.webp" 
             },
             {
-                "Title": "Beach Theme",
+                "Title": "Beach  ",
                 "Src": "images/website-candy-tables/themed16.webp" 
             },
             {
-                "Title": "Cat Theme",
+                "Title": "Cat  ",
                 "Src": "images/website-candy-tables/themed17.webp" 
             },
             {
-                "Title": "Cat Theme",
+                "Title": "Cat  ",
                 "Src": "images/website-candy-tables/themed18.webp" 
             },
             {
-                "Title": "Sonic Theme",
+                "Title": "Sonic  ",
                 "Src": "images/website-candy-tables/themed12.webp" 
             },
             {
-                "Title": "Paw Patrol Theme",
+                "Title": "Paw Patrol  ",
                 "Src": "images/website-candy-tables/themed19.webp" 
             },
             {
-                "Title": "Beach Theme",
+                "Title": "Beach  ",
                 "Src": "images/website-candy-tables/themed20.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Bee  ",
                 "Src": "images/website-candy-tables/themed21.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Bee  ",
                 "Src": "images/website-candy-tables/themed22.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Bee  ",
                 "Src": "images/website-candy-tables/themed23.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Bee  ",
                 "Src": "images/website-candy-tables/themed24.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Bee  ",
                 "Src": "images/website-candy-tables/themed25.webp" 
             },
             {
-                "Title": "Bee Theme",
+                "Title": "Bee  ",
                 "Src": "images/website-candy-tables/themed26.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman  ",
                 "Src": "images/website-candy-tables/themed30.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman  ",
                 "Src": "images/website-candy-tables/themed27.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman  ",
                 "Src": "images/website-candy-tables/themed28.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman  ",
                 "Src": "images/website-candy-tables/themed29.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman  ",
                 "Src": "images/website-candy-tables/themed31.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman  ",
                 "Src": "images/website-candy-tables/themed32.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman ",
                 "Src": "images/website-candy-tables/themed33.webp" 
             },
             {
-                "Title": "Spiderman Theme",
+                "Title": "Spiderman",
                 "Src": "images/website-candy-tables/themed34.webp" 
             }
         ]

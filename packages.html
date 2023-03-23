@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page | Candy Tables </title>
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/desktop.css">
+
+    <script src="scripts/main.js" type="module" defer></script>
+    <script src="scripts/packages.js" type="module" defer></script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <hr>
+    <main>
+        <h1>Packages</h1>
+        <div class="packagesMessage">
+            <p>Although we don't offer custom cakes, we have an extensive selection of delicious treats and packages to
+                suit
+                your needs!</p>
+            <p>Our packages come with a full setup, complete takedown, and thorough cleanup.</p>
+            <p>Please keep in mind that the delivery fee varies based on the location of your event. We provide our own
+                table with a fabric backdrop, linens, dessert stands, bases, serving trays, glass jars, and table
+                decorations that are tailored to your theme or occasion.</p>
+            <p>We can also reserve space on the table for your cake and offer a cake stand upon request.</p>
+            <p>Additionally, we offer add-ons for all packages.</p>
+            <p>If you have specific dessert requests or are hosting an event with more than 100 guests, please fill out
+                the
+                inquiry form below, and we'll schedule a phone consultation with you.</p>
+            <p>Planning a smaller gathering with less than 35 guests? Be sure to check out our à la carte menu!</p>
+        </div>
+        <form method="get">
+            <div class="optionWrap" >
+                <label class="packageOption" ><input type="radio" name="packages" value="package1" class="hidden"  >
+                    <h2>Package 1</h2>
+                    <p>Serves 35 Guests
+                        (90 treats) <br>
+                        18 choc strawberries <br>
+                        18 choc pretzels <br>
+                        18 mini brownies <br>
+                        18 sugar cookies <br>
+                        18 cheesecake cups <br>
+                        (Oreo, strawberry or blueberry) <br>
+                        1 Full Candy Jar (25 oz) <br>
+                        <strong>Grand total: $315</strong>
+                    </p>
+                </label>
+                <label class="packageOption"><input type="radio" name="packages" value="package2" class="hidden" >
+                    <h2>Package 2</h2>
+                    <p>Serves 50 guests
+                        (120 treats)<br>
+                        24 choc strawberries <br>
+                        24 choc pretzels <br>
+                        24 mini brownies <br>
+                        24 cheesecake cups<br>
+                        24 assorted cookies <br>
+                        2 Candy Jars (50 oz) <br>
+                        <strong>Grand Total: $365</strong>
+                    </p>
+                </label>
+                <label class="packageOption"><input type="radio" name="packages" value="package3" class="hidden" >
+                    <h2>Package 3</h2>
+                    <p>Serves 75 Guests
+                        (180 treats)<br>
+                        36 choc strawberries <br>
+                        36 mini brownies<br>
+                        36 choc pretzels <br>
+                        36 cheesecake cups<br>
+                        36 assorted cookies<br>
+                        2.5 Candy Jars (62.5 oz)<br>
+                        <strong>Grand Total: $365</strong>
+                    </p>
+                </label>
+                <label class="packageOption"><input type="radio" name="packages" value="package3" class="hidden" >
+                    <h2>Special Order</h2>
+                </label>
+            </div>
+            <label class="top">Name*<input type="text" name="name" required></label>
+            <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+
+            <input type="submit" value="Propose My Course" class="submitBtn">
+
+        </form>
+    </main>
+    <footer id="footer"></footer>
+
+</body>
+
+</html>
