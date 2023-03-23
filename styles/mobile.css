@@ -269,14 +269,64 @@ figcaption {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2),
         inset 0px -1px 0 rgba(0, 0, 0, 0.22);
 }
+.packageOption:has(> input:checked) {
+    background: var(--accent);
+}
+.packageOption:hover {
+    background: var(--primary1);
+}
 .hidden {
     display: none;
-  }
+}
 .active {
     background: var(--accent);
 }
 .optionWrap {
     text-align: center;
+}
+.top {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+.top input,
+textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 80%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.top input:required {
+    border-left: red solid 6px;
+}
+
+.top input:required:valid {
+    border-left: green solid 6px;
+}
+form {
+    max-width: 80%;
+    margin: 0 auto;
+    border: var(--accent) 10px solid;
+    border-radius: 5px;
+}
+
+.submitBtn {
+    display: block;
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 10px auto;
+    width: 80%;
+    align-self: center;
 }
 /* --------------------------------------Footer------------------------------------- */
 footer {
