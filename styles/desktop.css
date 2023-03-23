@@ -78,4 +78,13 @@
         max-width: 506px;
         margin: 0 auto;
     }
+    form {
+        max-width: 50%;
+        margin: 0%;
+    }
+    .packagesMain {
+        margin: 10px;
+        justify-content: center;
+        align-items: flex-start;
+    }
 }
