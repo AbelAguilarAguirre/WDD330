@@ -337,7 +337,7 @@ input[type="number"] {
     display: flex;
     flex-flow: row wrap;
     gap: 25px;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 .addons input[type="checkbox"] {
     padding: .75rem 0;
