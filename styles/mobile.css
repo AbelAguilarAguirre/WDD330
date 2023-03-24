@@ -272,18 +272,14 @@ figcaption {
 .packageOption:has(> input:checked) {
     background: var(--accent);
 }
-.packageOption:hover {
-    background: var(--primary1);
-}
+
 .hidden {
     display: none;
 }
 .active {
     background: var(--accent);
 }
-.optionWrap {
-    text-align: center;
-}
+
 .top {
     display: block;
     padding: 10px;
@@ -320,13 +316,27 @@ form {
 .submitBtn {
     display: block;
     border: none;
-    background-color: #9c2c13;
+    background-color: var(--accent);
     color: white;
     border-radius: 1rem;
     padding: 1rem 1.5rem;
     margin: 10px auto;
     width: 80%;
     align-self: center;
+    font-family: var(--heading-font);
+    font-weight: 100;
+    font-size: 25px;
+}
+input[type="number"] {
+    width: 20px;
+}
+.addons {
+    display: block;
+    width: 100%;
+}
+.addons input[type="checkbox"] {
+    padding: .75rem 0;
+    color: #555;
 }
 /* --------------------------------------Footer------------------------------------- */
 footer {

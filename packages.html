@@ -36,27 +36,27 @@
             <p>All dessert cups are in 3 oz cups and mini spoons are provided.</p>
             <h2>Add ons by the dozen:</h2>
             <p>
-                1 doz donut holes $10 <br>
-                1 doz mini cupcakes $15 <br>
-                1 doz glazed donuts $22 <br>
-                1 doz mini glam donuts <br>
-                1 doz regular cupcakes $30 <br>
-                1 doz cakepops (lines & sprinkles) $25 <br>
-                1 doz custom cakepops with molds $30 <br>
-                1 doz character cakepops $45-$60 <br>
-                1 doz decorated rice krispies $25 <br>
-                1 doz mix fruit cups  $25 <br>
-                   (3 fruits of your choice) <br>
-                1 doz choc covered oreos $30 <br>
-                1 doz arroz c leche cups $30 <br>
-                   (Mexican rice pudding) <br>
-                1 doz lemon charlotte cups $30 <br>
-                1 doz fresas c crema cups $30 <br>
-                   (mexican strawberries & cream) <br>
-                1 doz cheesecake cups $30 <br>
-                  (Oreo, strawberry or blueberry) <br>
-                1 doz flan cups.  $40 <br>
-                1 doz chocoflan cups $45</p>
+                Donut Holes $10 <br>
+                Mini Cupcakes $15 <br>
+                Glazed Donuts $22 <br>
+                <!-- Mini Glam Donuts  <br> -->
+                Regular Cupcakes $30 <br>
+                Cakepops (Lines & Sprinkles) $25 <br>
+                Custom Cakepops with Molds $30 <br>
+                Character Cakepops $45-$60 <br>
+                Decorated Rice Krispies $25 <br>
+                Mix Fruit Cups $25 <br>
+                  (3 fruits of your choice) <br>
+                Choc Covered Oreos $30 <br>
+                Arroz Con Leche Cups $30 <br>
+                  (Mexican Rice Pudding) <br>
+                Lemon Charlotte Cups $30 <br>
+                Fresas Con Crema Cups $30 <br>
+                  (Mexican Strawberries & Cream) <br>
+                Cheesecake Cups $30 <br>
+                 (Oreo, Strawberry or Blueberry) <br>
+                Flan Cups $40 <br>
+                Chocoflan Cups $45</p>
 
         </div></div>
         <form method="POST" action="https://formspree.io/f/mlekwwlw">
@@ -115,16 +115,42 @@
                         <strong>Grand Total: $580</strong>
                     </p>
                 </label>
-                <label class="packageOption"><input type="radio" id="packages" name="packages" value="package3" class="hidden" >
-                    <h2>Special Order</h2>
+                <label class="packageOption"><input type="radio" id="packages" name="packages" value="No Package" class="hidden" >
+                    <h2>No Package</h2>
                 </label>
+                <h2>Á La Carte and Add-ons <br> By The Dozen</h2> <br>
+                <label class="addons"><input type="checkbox" name="Donut Holes" value="yes">Donut Holes $10 <input type="number" name="Ammount" min="1" > Dozen</label> <br>
+                <label class="addons"><input type="checkbox" name="Mini Cupcakes" value="yes">Mini Cupcakes $15 <input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="Glazed Donuts" value="yes">Glazed Donuts $22 <input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="Regular Cupcakes" value="yes">Regular Cupcakes $30 <input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Cakepops (Lines & Sprinkles) $25<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Custom Cakepops with Molds $30<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Character Cakepops $45-$60<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Decorated Rice Krispies $25<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Mix Fruit Cups $25<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Choc Covered Oreos $30<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Arroz Con Leche Cups $30<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Lemon Charlotte Cups $30<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Fresas Con Crema Cups $30<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Cheesecake Cups $30<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Flan Cups $40<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="addons"><input type="checkbox" name="editing" value="yes">Chocoflan Cups $45<input type="number" name="Ammount" min="1" > Dozen</label><br>
+                <label class="packageOption"><input type="checkbox" id="packages" name="packages" value="Custom Request" class="hidden" >
+                    <h2>Custom Request</h2>
+                </label>
+                
             </div>
-            <label class="top">Name*<input type="text" id="name" name="name" required></label>
-            <label class="top">Phone<input type="tel" id="phone" name="phone" placeholder="1235551234"></label>
-            <label class="top">Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Name*<input type="text" id="name" name="name"  required></label>
+            <label class="top">Phone*<input type="tel" id="phone" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Email<input type="email" id="email" name="email" ></label>
+            <label class="top">Date of Event*<input type="date" id="date" name="date of event" required></label>
+            <label class="top">Location of Event*<input type="text" id="Location" name="Location of Event" required></label>
+            <label class="top">Guest Count<input type="number" id="guests" name="Guest Count" min="0"></label>
+            <label class="top">Occasion*<input type="text" id="occasion" name="Occasion" required></label>
+            <label class="top">Theme/Colors*<input type="text" id="theme" name="Theme/Colors" required></label>
             <label class="top"><span class="h3">Special Request</span><br> <textarea id="specialrequest" name="specialrequest"
-                rows="6" class="specialins"></textarea></label>
-            <input type="submit" value="Place Order" class="submitBtn">
+                rows="6" class="specialins" placeholder="Specific Desserts, Cake Stand"></textarea></label>
+            <input type="submit" value="Submit Inquiry" class="submitBtn">
 
         </form>
     </main>
