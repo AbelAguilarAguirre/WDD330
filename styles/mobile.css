@@ -326,7 +326,7 @@ form {
     font-size: 25px;
 }
 input[type="number"] {
-    width: 20px;
+    width: 40px;
 }
 .addons {
     display: block;
