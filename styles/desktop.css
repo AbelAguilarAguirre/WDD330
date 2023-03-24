@@ -36,8 +36,12 @@
     main hr {
         display: none;
     }
-    main > div {
+    /* main > div {
         max-width: 25%;
+    } */
+    .packagesContainer{
+        max-width: 45%;
+        order: 2;
     }
     .category img {
         height: 300px;

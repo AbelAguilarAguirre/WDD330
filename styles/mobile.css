@@ -307,7 +307,6 @@ textarea {
 }
 form {
     max-width: 80%;
-    margin: 0 auto;
     border: var(--accent) 10px solid;
     border-radius: 5px;
 }
