@@ -329,8 +329,15 @@ input[type="number"] {
     width: 40px;
 }
 .addons {
-    display: block;
-    width: 100%;
+    border: solid 2px var(--darkaccent);
+    padding: 10px;
+    border-radius: 10px;
+}
+#addonContainer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+    justify-content: space-evenly;
 }
 .addons input[type="checkbox"] {
     padding: .75rem 0;
