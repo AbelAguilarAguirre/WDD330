@@ -43,6 +43,9 @@
         max-width: 45%;
         order: 2;
     }
+    .homeMessage {
+        max-width: 20%;
+    }
     .category img {
         height: 300px;
         max-width: none;
