@@ -95,4 +95,7 @@
     .packageOption:hover {
         background: var(--primary1);
     }
+    .mainimg {
+        max-width: 641px;
+    }
 }

@@ -47,4 +47,7 @@
     #hero-banner > a > h2 {
         border-radius: 0 0 5px 5px;
     }
+    .mainimg {
+        border-radius: 5px;
+    }
 }
