@@ -36,9 +36,6 @@
     main hr {
         display: none;
     }
-    /* main > div {
-        max-width: 25%;
-    } */
     .packagesContainer{
         max-width: 45%;
         order: 2;
@@ -64,6 +61,7 @@
     }
     #hero-banner {
         order: 2;
+        height: 400px;
     }
     #hero-banner > a:hover {
         background-color: var(--primary1);
