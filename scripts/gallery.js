@@ -7,22 +7,28 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const images = jsonObject['Images'];
+    console.log(images);
     images.forEach(displayImages);
   });
-  function displayImages(image) {
-    let imgTemplate = '';
-    imgTemplate =
-        `<div class='category'>
-            <h2>${image.Category}</h2>
-            <hr>`
-    image.Image.forEach(image => {
-        imgTemplate +=
-       `<figure>
-        <img src="${image.Src}" alt="${image.Title}" loading='lazy'>
-        <figcaption>${image.Title}</figcaption>
-      </figure>`
+function displayImages(image) {
+  let imgTemplate = '';
+  console.log(image),
+    image.FullTable.forEach(image => {
+
+      imgTemplate +=
+        `<div class="imageSets" >
+       <img class="mainimg" src="${image.TableImg}" alt="" loading="lazy">
+       `;
+      if ( image.Set != undefined) {
+        for (let i = 0; i < image.Set.length; i++) {
+          imgTemplate += `<img class="childimg" src="${image.Set[i].Src}" alt="${image.Set[i].Title}">`
+        }
+      }
+
+
+      imgTemplate += `</div>`;
     })
-    imgTemplate += 
+  imgTemplate +=
     `<hr></div>`
-    imageCards.innerHTML += imgTemplate;
-  }
+  imageCards.innerHTML += imgTemplate;
+}
