@@ -234,13 +234,11 @@ hr {
     height: auto;
 }
 .childimg {
-    max-width: 33%;
-    height: auto;
+    max-width: 100%;
+    height: 100%;
     border-radius: 5px;
     box-shadow: var(--boxshadow);
 }
-
-
 /* --------------------------------------Packages------------------------------------- */
 .packagesMessage p {
     text-align: left;
@@ -258,7 +256,6 @@ hr {
         inset 0 -3px 0 rgba(0, 0, 0, 0.22);
     transition: 0.3s;
     user-select: none;
-    width: 70%;
     height: auto;
 }
 
@@ -276,6 +273,9 @@ hr {
 }
 .active {
     background: var(--accent);
+}
+.optionWrap {
+    width: 100%;
 }
 
 .top {
@@ -304,7 +304,7 @@ textarea {
     border-left: green solid 6px;
 }
 form {
-    max-width: 80%;
+    max-width: 100%;
     border: var(--accent) 10px solid;
     border-radius: 5px;
 }

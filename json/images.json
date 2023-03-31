@@ -397,14 +397,7 @@
                 }
             ],
             "Holidays": [
-                {
-                    "Title": "Christmas Cakepops",
-                    "Src": "images/website-candy-tables/holiday2.webp"
-                },
-                {
-                    "Title": "Christmas Cakepops",
-                    "Src": "images/website-candy-tables/holiday3.webp"
-                },
+               
                 {
                     "Title": "Fathers Day Chocolate Strawberries and Pretzeles",
                     "Src": "images/website-candy-tables/holiday1.webp"
@@ -418,20 +411,8 @@
                     "Src": "images/website-candy-tables/holiday5.webp"
                 },
                 {
-                    "Title": "Valentines Day Chocolate Dipped Oreos",
-                    "Src": "images/website-candy-tables/holiday6.webp"
-                },
-                {
                     "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
                     "Src": "images/website-candy-tables/holiday7.webp"
-                },
-                {
-                    "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                    "Src": "images/website-candy-tables/holiday8.webp"
-                },
-                {
-                    "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
-                    "Src": "images/website-candy-tables/holiday9.webp"
                 },
                 {
                     "Title": "Halloween Cakepops",
@@ -440,6 +421,26 @@
                 {
                     "Title": " ",
                     "Src": "images/full-tables/23.webp"
+                },
+                {
+                    "Title": "Valentines Day Chocolate Dipped Oreos",
+                    "Src": "images/website-candy-tables/holiday6.webp"
+                },
+                {
+                    "Title": "Christmas Cakepops",
+                    "Src": "images/website-candy-tables/holiday2.webp"
+                },
+                {
+                    "Title": "Christmas Cakepops",
+                    "Src": "images/website-candy-tables/holiday3.webp"
+                },
+                {
+                    "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
+                    "Src": "images/website-candy-tables/holiday9.webp"
+                },
+                {
+                    "Title": "Valentines Day Chocolate Strawberries and Pretzeles",
+                    "Src": "images/website-candy-tables/holiday8.webp"
                 }
             ],
             "Custom": [

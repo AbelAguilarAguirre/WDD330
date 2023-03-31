@@ -19,14 +19,23 @@ function displayImages(image) {
        `;
     if (image.Set != undefined) {
       for (let i = 0; i < image.Set.length; i++) {
-        imgTemplate += `<img class="childimg" src="${image.Set[i].Src}" alt="${image.Set[i].Title}">`
-      }
-    }
+        imgTemplate += `<img class="childimg" src="${image.Set[i].Src}" alt="${image.Set[i].Title}">`;
+      };
+    };
+    imgTemplate += `</div><hr>`;
 
-
-    imgTemplate += `</div>`;
-  })
+  });
+  imgTemplate += `<h2>Holidays</h2><hr><div class="imageSets">`;
+  image.Holidays.forEach(image => {
+    imgTemplate += `<img class="childimg" src="${image.Src}" alt="${image.Title}">`;
+  });
   imgTemplate +=
-    `<hr></div>`
+    `</div><hr>`;
+  imgTemplate += `<h2>Custom Treats</h2><hr><div class="imageSets">`;
+  image.Custom.forEach(image => {
+    imgTemplate += `<img class="childimg" src="${image.Src}" alt="${image.Title}">`
+  });
+  imgTemplate +=
+    `</div><hr>`;
   imageCards.innerHTML += imgTemplate;
 }
