@@ -10,10 +10,6 @@
                             "Src": "images/website-candy-tables/wedding2.webp"
                         },
                         {
-                            "Title": "Lemon Charlotte",
-                            "Src": "images/website-candy-tables/wedding4.webp"
-                        },
-                        {
                             "Title": " ",
                             "Src": "images/website-candy-tables/wedding3.webp"
                         },
@@ -32,6 +28,10 @@
                         {
                             "Title": " ",
                             "Src": "images/website-candy-tables/wedding9.webp"
+                        },
+                        {
+                            "Title": "Lemon Charlotte",
+                            "Src": "images/website-candy-tables/wedding4.webp"
                         }
                     ]
                 },
