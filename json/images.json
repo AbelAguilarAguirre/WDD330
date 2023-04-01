@@ -3,6 +3,23 @@
         {
             "FullTable": [
                 {
+                    "TableImg": "images/full-tables/33.webp",
+                    "Set": [
+                        {
+                            "Title": " ",
+                            "Src": "images/website-candy-tables/themed36.webp"
+                        },
+                        {
+                            "Title": " ",
+                            "Src": "images/website-candy-tables/themed37.webp"
+                        },
+                        {
+                            "Title": " ",
+                            "Src": "images/website-candy-tables/themed38.webp"
+                        }
+                    ]
+                },
+                {
                     "TableImg": "images/full-tables/1.webp",
                     "Set": [
                         {
