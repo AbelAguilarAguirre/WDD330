@@ -27,11 +27,12 @@ function validateRecaptcha() {
     let response = grecaptcha.getResponse();
     if (response.length === 0) {
         packageForm.setAttribute("action","https://www.candytablesbyjade.com/packages.html");
+        alert("Are You A Robot?")
         return false;
     } else {
         packageForm.setAttribute("method","POST");
         packageForm.setAttribute("action","https://formspree.io/f/mlekwwlw");
-        alert("Are You A Robot?")
+        
         return true;
     }
 }
