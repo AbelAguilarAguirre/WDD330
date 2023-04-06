@@ -352,3 +352,17 @@ footer {
     align-items: center;
     gap: 10px;
 }
+/* -------------------------------------Try Again--------------------------------- */
+.tryagain {
+    margin: 20px;
+}
+.Btn {
+    background-color: var(--accent);
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.a {
+    max-width: 200px;
+}

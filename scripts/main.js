@@ -26,12 +26,11 @@ function validateRecaptcha() {
     let packageForm = document.getElementById("packageForm"); 
     let response = grecaptcha.getResponse();
     if (response.length === 0) {
-        alert("Are You A Robot?")
+        packageForm.setAttribute("action","https://formspree.io/f/mlekwwlw");
         return false;
     } else {
         packageForm.setAttribute("method","POST");
         packageForm.setAttribute("action","https://formspree.io/f/mlekwwlw");
-        
         return true;
     }
 }
