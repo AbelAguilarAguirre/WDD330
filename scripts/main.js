@@ -21,3 +21,14 @@ async function displayHeaderFooter() {
         };
     });
 };
+
+function validateRecaptcha() {
+    var response = grecaptcha.getResponse();
+    if (response.length === 0) {
+        alert("not validated");
+        return false;
+    } else {
+        alert("validated");
+        return true;
+    }
+}
