@@ -169,7 +169,7 @@
         function recaptchaCallback() {
             let btnSubmit = document.getElementById("btnSubmit");
 
-            if (btnSubmit.getAttribute("disabled")) {
+            if (btnSubmit.getAttribute("disabled") == true) {
                 btnSubmit.removeAttribute("disabled");
             }
         }
