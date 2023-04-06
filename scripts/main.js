@@ -26,7 +26,6 @@ function validateRecaptcha() {
     let packageForm = document.getElementById("packageForm"); 
     let response = grecaptcha.getResponse();
     if (response.length === 0) {
-        packageForm.setAttribute("action","https://www.candytablesbyjade.com/packages.html");
         alert("Are You A Robot?")
         return false;
     } else {
