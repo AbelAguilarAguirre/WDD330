@@ -29,6 +29,7 @@ function validateRecaptcha() {
         packageForm.setAttribute("action","https://www.candytablesbyjade.com/packages.html");
         return false;
     } else {
+        packageForm.setAttribute("method","POST");
         packageForm.setAttribute("action","https://formspree.io/f/mlekwwlw");
         return true;
     }
