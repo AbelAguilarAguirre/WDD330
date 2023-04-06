@@ -23,12 +23,12 @@ async function displayHeaderFooter() {
 };
 
 function validateRecaptcha() {
-    var response = grecaptcha.getResponse();
+    let packageForm = document.getElementById("packageForm"); 
+    let response = grecaptcha.getResponse();
     if (response.length === 0) {
-        alert("not validated");
         return false;
     } else {
-        alert("validated");
+        packageForm.setAttribute("action","https://formspree.io/f/mlekwwlw");
         return true;
     }
 }
