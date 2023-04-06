@@ -25,6 +25,7 @@ async function displayHeaderFooter() {
 function validateRecaptcha() {
     let packageForm = document.getElementById("packageForm"); 
     let response = grecaptcha.getResponse();
+    console.log("test1")
     if (response.length === 0) {
         return false;
     } else {

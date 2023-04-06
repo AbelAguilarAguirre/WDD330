@@ -40,7 +40,7 @@
                 <p>All dessert cups are in 3 oz cups and mini spoons are provided.</p>
             </div>
         </div>
-        <form id="packageForm" action="https://www.candytablesbyjade.com/bot.html" onsubmit="return validateRecaptcha();">
+        <form id="packageForm" action="https://www.candytablesbyjade.com/bot.html">
             <div class="optionWrap">
                 <label class="packageOption"><input type="radio" id="packages" name="packages" value="Package 1"
                         class="hidden">
@@ -160,7 +160,7 @@
                     placeholder="Specific Desserts, Cake Stand"></textarea></label>
             <div class="g-recaptcha" data-sitekey="6LcyHmIlAAAAAMbQDWPLO85suxsiBrfLDm0HVo8-
             " required></div>
-            <input type="submit" value="Submit Inquiry" class="submitBtn">
+            <input type="submit" value="Submit Inquiry" class="submitBtn" onclick="return validateRecaptcha();">
 
         </form>
     </main>
