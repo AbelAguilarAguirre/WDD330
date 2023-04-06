@@ -40,7 +40,7 @@
                 <p>All dessert cups are in 3 oz cups and mini spoons are provided.</p>
             </div>
         </div>
-        <form id="packageForm" action="https://www.candytablesbyjade.com/bot.html" method="get">
+        <form id="packageForm" method="POST" action="https://formspree.io/f/mlekwwlw">
             <div class="optionWrap">
                 <label class="packageOption"><input type="radio" id="packages" name="packages" value="Package 1"
                         class="hidden">
@@ -159,13 +159,21 @@
                     name="specialrequest" rows="6" class="specialins"
                     placeholder="Specific Desserts, Cake Stand"></textarea></label>
             <div class="g-recaptcha" data-sitekey="6LcyHmIlAAAAAMbQDWPLO85suxsiBrfLDm0HVo8-
-            " required></div>
-            <input type="submit" value="Submit Inquiry" class="submitBtn" onclick="return validateRecaptcha();">
+            " data-callback="recaptchaCallback"></div>
+            <button type="submit" class="submitBtn" id="btnSubmit" disabled>Submit Inquiry</button>
 
         </form>
     </main>
     <footer id="footer"></footer>
+    <script>
+        function recaptchaCallback() {
+            let btnSubmit = document.getElementById("btnSubmit");
 
+            if (btnSubmit.getAttribute("disabled")) {
+                btnSubmit.removeAttribute("disabled");
+            }
+        }
+    </script>
 </body>
 
 </html>
