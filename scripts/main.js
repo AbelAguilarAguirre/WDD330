@@ -26,9 +26,9 @@ function validateRecaptcha() {
     let packageForm = document.getElementById("packageForm"); 
     let response = grecaptcha.getResponse();
     if (response.length === 0) {
-        packageForm.setAttribute("action","https://www.candytablesbyjade.com/bot.html");
         return false;
     } else {
+        packageForm.removeAttribute("action", "https://www.candytablesbyjade.com/bot.html")
         packageForm.setAttribute("method","POST");
         packageForm.setAttribute("action","https://formspree.io/f/mlekwwlw");
         return true;
