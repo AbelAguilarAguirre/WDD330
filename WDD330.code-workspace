@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "WDD330",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WDD330"
+	}
+}
